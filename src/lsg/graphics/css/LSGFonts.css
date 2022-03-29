@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Arkham';
+    src: url("../fonts/Arkham_reg.ttf");
+}
+
+.game-font{
+    -fx-font-family: 'Arkham';
+    -fx-font-style: italic;
+    -fx-font-size: 45px;
+    -fx-padding: 1.5px, 0, 0, 0;
+}
+
+.game-font-fx{
+    -fx-text-fill: linear-gradient(from 0% 0% to 50% 50%, repeat, ghostwhite, red);
+    -fx-effect: dropshadow(three-pass-box, purple, 10, 0, 0, 0);
+    -fx-stroke: black;
+    -fx-stroke-width: 1.5px;
+}
+
+.game-font-fx .text{
+    -fx-stroke: black;
+    -fx-stroke-width: 1.5px;
+}
